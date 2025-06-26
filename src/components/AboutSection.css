@@ -1,0 +1,63 @@
+.about-section {
+  background-color: #0f0f0f;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.pointer-img {
+  width: 100px;
+  position: absolute;
+  left: -60px;
+  top: 50px;
+  z-index: 2;
+}
+
+/* Blobs */
+.yellow-blob, .gray-blob {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.8;
+  filter: blur(1px);
+}
+
+.yellow-blob {
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  border-radius: 50% 60% 40% 50%;
+}
+
+.gray-blob {
+  width: 180px;
+  height: 180px;
+  background: gray;
+  border-radius: 60% 40% 50% 30%;
+}
+
+.blob-right {
+  top: 0;
+  right: -80px;
+}
+
+.blob-left-top {
+  top: 0;
+  left: -100px;
+  
+}
+
+.blob-bottom-right {
+  bottom: -80px;
+  right: 20px;
+}
+
+.blob-bottom-left {
+  bottom: 50px;
+  left: 30%;
+}
